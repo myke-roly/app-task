@@ -17,7 +17,7 @@ function saveTask (e){
         tasks.push(task)
         localStorage.setItem('tasks', JSON.stringify(tasks))
     }
-    getTaks()
+    getTasks()
     form.reset() // Limpiamos el formularion con el método reset
     e.preventDefault() // Evitamos que se envie el formulario y se actualize la pagína
 }
